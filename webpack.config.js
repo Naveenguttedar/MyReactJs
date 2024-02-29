@@ -1,14 +1,12 @@
 const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
-  mode: "production",
+  mode: "development",
   entry: './myReact.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
   },
-  // devServer: { 
-  //   contentBase: path.join(__dirname, 'dist') 
-  // }, 
   "module": {
     "rules": [{
       "test": /\.js$/,
@@ -25,7 +23,14 @@ module.exports = {
         }
       }
     },
-    ]
-  }
+    ],
+  },
+  plugins: [
+  
+    new HtmlWebpackPlugin({
+      template:'index.html',
+    }),
+  
+]
 };
 
