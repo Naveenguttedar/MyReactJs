@@ -25,7 +25,8 @@ MyReact is focused on 4 things.
   - For rendering elements we will use `MyReact.render` method ,which uses Js internal `document.createElement(type)` ,`appendChild(element)` methods to render the Dom Objects.
 - State manipulation
   - <i>source</i> :- [Shawn "Swyx" Wang JSConf.Asia 2019](https://youtu.be/KJP1E-Y-xyo?si=pB93CN5WdT8iKY4u)
-  - For storing states we will use `_hooks[]` and too implement Hooks
-  - 
-  -  
-* Dependency resolution (build)
+  - For storing states we will using a array <i>I,e</i> `_hooks[]`.
+  - `MyReact.useState` method used to add states and to update states .
+  - `MyReact.useEffect` method used to handle side effects of components, such as fetching data and updating the DOM. 
+* Dependency resolution (bundling)
+- To bundle up all the dependencies(package.json files) and the working directory files to a single file <i>I,e</e> `./Example/build/bundle.js` we need a bundler. 
