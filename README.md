@@ -1,8 +1,9 @@
+<a name="readme-top"></a>
 # MyReactjs
 
 ## Introduction
 
-MyReact is a lightweight JavaScript library inspired by React, designed to provide a simplified implementation of key React features such as components, state management, and hooks,
+MyReact is a lightweight JavaScript library designed to learn and simplify the implementation of key React features such as components, state management, and hooks,
 MyReact offers a straightforward approach to building interactive small web applications with the power of React-like functionality, but with a simpler and more lightweight implementation.
 
 ### Example
@@ -11,6 +12,9 @@ Explore the simple [Counter app](https://naveenguttedar.github.io/MyReactJs/Exam
 - [Shawn "Swyx" Wang JSConf.Asia 2019](https://youtu.be/KJP1E-Y-xyo?si=pB93CN5WdT8iKY4u)
 - [Build your own React](https://pomb.us/build-your-own-react/)
 ## About the project
+> **NOTE**
+> This project is only made for learning purposes; hence, it does not contain React features like "Vertiual Dom,"  "Fibres,"  "Reconciliation," and some React algorithms.
+
 MyReact is focused on <b> four </b> things.
 - JSX transpilation
   - To implement this feature, we need `@babelJs`, especially the `@babel/preset-react`, which turns the JSX text into a createEelment method calls, You can check this using a command. 
@@ -53,4 +57,17 @@ To create a production build
    ```sh
       npm run build
    ```
+<!-- CONTRIBUTING -->
+## Contributing
 
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+Don't forget to give the project a star! Thanks again!
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE.txt` for more information.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
