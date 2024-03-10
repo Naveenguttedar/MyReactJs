@@ -37,7 +37,20 @@ MyReact is focused on <b> four </b> things.
    ```sh
     git clone https://github.com/Naveenguttedar/MyReactJs.git
    ```
-2. Install all the dependencies
+2. Change directory(`cd`) to MyReactJs and install all the dependencies
    ```sh
       npm install
    ```
+## Usage
+   ```js
+      import MyReact from './MyReact.js'
+   ```
+To run local  web server 
+  ```sh
+     npm run dev-server  # by default it's rendering Example (counter app)
+  ```
+To create a production build
+   ```sh
+      npm run build
+   ```
+
